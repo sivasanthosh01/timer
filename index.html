@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Timer</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+		
+		
+	</head>
+<body>
+	
+	<section id="time-sec">
+		<div class="container">
+			<h1 class="heading">Timer</h1>
+			<div class="row">
+			
+				<div class="">
+					
+					<p>Min
+					<span>:</span>
+					<span id="min">00</span>
+					</p>
+					
+				</div>
+				
+				<div class="">
+				
+					<p>Sec
+					<span>:</span>
+					<span id="secs">00</span>
+					</p>
+
+				</div>
+				
+				<div class="">
+				
+					<p>Ms
+					<span>:</span>
+					<span id="msec">00</span>
+					</p>
+					
+				</div>
+			
+			</div>
+			<div class="btns">
+				<div><button id="startbtn" onclick="timestart()">Start</button></div>
+				<div><button id="stopbtn" onclick="timestop()">Stop</button></div>
+				<div><button id="resetbtn" onclick="timereset()">Reset</button></div>
+			</div>
+			
+		</div>
+	</section>
+
+	<script src="js/main.js">
+	</script>
+	
+</body>
+</html>
